@@ -6,14 +6,14 @@ Let url with a trailing slash, a middleware for Connect and Express.js. Useful f
 ## Installation
 
 ```
-$ npm install connect-with-trailingslash
+$ npm install connect-without-trailingslash
 ```
 
 ## Usage
 
 ```javascript
 var connect = require("connect")
-  , slashes = require("connect-with-trailingslash");
+  , slashes = require("connect-without-trailingslash");
 
 connect() // or express()
   .use(connect.static())
