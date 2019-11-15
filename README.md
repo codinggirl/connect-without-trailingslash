@@ -1,4 +1,4 @@
-connect-with-trailingslash
+connect-without-trailingslash
 ===============
 
 Let url with a trailing slash, a middleware for Connect and Express.js. Useful for creating canonical urls in your Node.js applications.
