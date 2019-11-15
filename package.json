@@ -1,7 +1,7 @@
 {
-    "name": "connect-slashes",
-    "version": "1.4.0",
-    "description": "Trailing slash redirect middleware for Connect and Express.js",
+    "name": "connect-with-trailingslash",
+    "version": "2.0.0",
+    "description": "Let url with a trailing slash, a middleware for Connect and Express.js",
     "keywords": [
         "trailing",
         "slash",
@@ -9,24 +9,25 @@
         "middleware",
         "express"
     ],
-    "author": "Roi Avinoam <avinoamr@gmail.com>",
+    "author": "Richard Libre",
     "contributors": [
         "Feross Aboukhadijeh <feross@feross.org> (http://feross.org)",
         "brunogfranca (https://github.com/brunogfranca)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/avinoamr/connect-slashes.git"
+        "url": "https://github.com/codinggirl/connect-with-trailingslash"
     },
     "devDependencies": {
-        "mocha": "^5.2.0"
+        "@types/jest": "^24.0.23",
+        "jest": "^24.9.0"
     },
     "scripts": {
-        "test": "node_modules/mocha/bin/mocha"
+        "test": "jest"
     },
     "main": "lib/index.js",
     "license": "MIT",
     "engines": {
-        "node": "*"
+        "node": ">= 8"
     }
 }
